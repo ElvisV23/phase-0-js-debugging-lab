@@ -6,7 +6,7 @@ function calculateDiscountedPrice(quantity, pricePerItem) {
     }
 
     if (quantity >= 10) {
-        totalPrice *= 0.9; // Apply a 10% discount
+        totalPrice *= 0.9; // Apply a 9% discount
     }
 
     return totalPrice;
